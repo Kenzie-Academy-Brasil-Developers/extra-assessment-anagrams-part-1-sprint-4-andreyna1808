@@ -2,22 +2,39 @@ body{
     background-color:black;
     color: rgb(207, 207, 207);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
 }
+.img {
+    display: none;
+}
+p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
 input{
     height: 60px;
     border-radius: 20px;
-    margin: 20px 10px;
+    width: 180px;
+    margin: 2px;
+
 }
 button{
     cursor: pointer;
     background-color: rgb(255, 136, 0);
     border-radius: 20px;
     height: 60px;  
-}
+    width: 200px;
+    margin: 2px;
 
+}
 #resultado{
     text-align: center;
-    padding: 20px;
 }
 button:hover {
      background:linear-gradient(to bottom, red 5%, orange 100%);
@@ -29,6 +46,41 @@ button:hover {
         background-color:black;
         color: rgb(207, 207, 207);
         text-align: center;
+        width: 100%;
     }
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 400px;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        height: 60px;
+        border-radius: 20px;
+        width: 98%;
+        margin: 2px;
+    }
+    button{
+        cursor: pointer;
+        background-color: rgb(255, 136, 0);
+        border-radius: 20px;
+        height: 60px;  
+        width: 100%;
+        margin: 2px;
+
+    }
+    .tarefa {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+
 
 }
