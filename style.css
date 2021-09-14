@@ -10,19 +10,10 @@ body{
 .img {
     display: none;
 }
-p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-}
-
 input{
     height: 60px;
     border-radius: 20px;
-    width: 180px;
-    margin: 2px;
-
+    width: 190px;
 }
 button{
     cursor: pointer;
@@ -30,8 +21,6 @@ button{
     border-radius: 20px;
     height: 60px;  
     width: 200px;
-    margin: 2px;
-
 }
 #resultado{
     text-align: center;
